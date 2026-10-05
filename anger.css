@@ -292,7 +292,7 @@
     width: 90%;
 }
 .anger-img img:nth-child(2){
-    padding: 0px 10px;
+    padding: 20px 10px;
     margin-top: 20px;
     position: absolute;
     left: 0;
@@ -301,7 +301,7 @@
 }
 
 .anger-img img:nth-child(3){
-    padding: 0px 10px;
+    padding: 20px 10px;
     position: absolute;
     left: 0;
     top: 62%;
@@ -310,7 +310,7 @@
     width: 90%;
 }
 .anger-img img:nth-child(4){
-    padding: 0px 10px;
+    padding: 20px 10px;
     position: absolute;
     right: 0;
     left: 0;
@@ -320,12 +320,11 @@
     width: 90%;
 }
 .anger-img img:nth-child(5){
-    padding: 0px 10px;
+    padding: 20px 10px;
     margin-bottom: 20px;
     position: absolute;
     right: 0;
     bottom: 0;
-    /* top: 70%; */
     left: 0;
     height: 330px;
     width: 90%;
