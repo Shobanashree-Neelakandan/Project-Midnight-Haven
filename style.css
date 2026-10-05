@@ -270,7 +270,7 @@ background: linear-gradient(297deg, rgba(113, 134, 163, 1) 50%, rgba(231, 169, 1
 
 }
 .mindc-1:hover{
-        transform: translateY(-20px) scale(1.2);
+        transform: translateY(-20px) scale(1.05);
         border-top: solid 3px #E7A98B;
 
 }
