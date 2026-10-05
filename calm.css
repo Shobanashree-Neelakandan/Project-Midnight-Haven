@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.calm{
+    background:
+        linear-gradient(
+            to right,
+            rgba(23, 37, 42, 0.9),
+            rgba(23, 37, 42, 0.45),
+            rgba(23, 37, 42, 0.15)
+        ),
+        url(./image/calm-bg.png) center/cover no-repeat;
+    height: 100vh;
+    text-align: center;
+}
+.calm-title{
+    padding-top: 200px;
+}
+.calm-title h1{
+      font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #F5F0E8;
+}
+.calm-title p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+      font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    color: #67a288;
+}
+.calm-title span{
+    line-height: 50px;
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    color: #d8e3df;
+}
+
+.quot-icon i{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-size: 60px;
+}
+.calm-quotes p{
+    margin-top: 30px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 32px;
+}
+.calm-music{
+     background:
+radial-gradient(circle at 15% 20%, rgba(150,180,150,.18), transparent 30%),
+radial-gradient(circle at 85% 70%, rgba(217,164,143,.10), transparent 25%),
+#17382F;
+    /* background-color: #F5F0E8; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    height: 100vh;
+}
+.music-title p{
+    text-align: center;
+    font-size: 48px;
+    color: #a8e1c9;
+}
+.music-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+}
+.music-1{
+    height: 500px;
+    width: 350px;
+    border: solid 1px #8FAFA3;
+    border-radius: 20px;
+
+    transition: 0.5s linear;
+}
+.music-1:hover{
+    transform: scale(1.1);
+}
+.music-1 p{
+    padding-top: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #f0f9f5;
+    text-align: center;
+}
+.music-1 img{
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 300px;
+    width: 330px;
+}
+.music-1 audio{
+    padding: 20px 20px;
+    padding-bottom: 10px;
+}
+/* try this */
+.try-this{
+    background-image: url(./image/calmc-bg.png);
+    text-align: center;
+    height: 100vh;
+}
+.try-this h1{
+    font-size: 52px;
+    padding-top: 50px;
+}
+.try-this p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 38px;
+    color: #97aca5;
+}
+.c-activity{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.ca-1{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    width: 300px;
+}
+.hr{
+    border: solid 3px #F5F0E8;
+    width: 50px;
+    margin-bottom: 20px;
+}
+.ca1-img img{
+    border-radius: 24px;
+    height: 200px;
+    width: 300px;
+}
+.ca-1 p{
+    font-size: 28px;
+    color: #F5F0E8;
+}
+.ca-1 span{
+    font-size: 28px;
+    color: #27e5ac;
+}
+
+.calm-quotes{
+    background:
+linear-gradient(
+    to bottom,
+    #17382F 0%,
+    #17382F 75%,
+    #102A24 100%
+);
+    height: 80vh;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+    text-align: center;
+}
+.c-icon i{
+    font-size: 64px;
+    position: absolute;
+    left: 50px;
+}
+
+.calm-quotes h1{
+    color: #058b58;
+}
+.quo-tit {
+    color: #F5F0E8;
+    font-size: 32px;
+}
+.quo-list ul{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.quo-list ul li{
+    color: #D9A48F;
+    font-size: 28px;
+}
+.quo-list ul li:first-child{
+    list-style: none;
+}
+.calm-quotes button{
+    margin-top: 30px;
+    height: 40px;
+    width: 300px;
+    font-size: 24px;
+    background: #17382F;
+    color: #F5F0E8;
+    border: solid 1px #F5F0E8;
+    border-radius: 10px;
+}
+#home{
+    margin: 20px;
+    float: right;
+    height: 40px;
+    width: 300px;
+    font-size: 24px;
+    background: #17382F;
+    color: #F5F0E8;
+    border: solid 1px #F5F0E8;
+    border-radius: 10px;
+}
+
+/* media */
+@media(max-width:780px){
+ 
+    .calm{
+        position: relative;
+    background:
+        linear-gradient(
+            to right,
+            rgba(23, 37, 42, 0.9),
+            rgba(23, 37, 42, 0.45),
+            rgba(23, 37, 42, 0.15)
+        ),
+        url(./image/calm-bg.png) center/cover no-repeat;
+    height: 80vh;
+    text-align: center;
+}
+.calm-title{
+    position: absolute;
+    top: 10%;
+    padding: 20px 10px;
+}
+.calm-title h1{
+      font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+.calm-title p{
+    line-height: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+      font-family: "Poppins", sans-serif;
+    font-size: 32px;
+}
+.calm-title span{
+    line-height: 50px;
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+}
+.calm-music{
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    height: auto;
+}
+.music-title p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 48px;
+}
+.music-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+.music-1{
+    height: 480px;
+    width: 90%;
+}
+.music-1 img{
+    padding: 20px;
+    height: 300px;
+    width: 90%;
+}
+.music-1 audio{
+    padding: 0px 20px;
+    padding-bottom: 10px;
+}
+/* try this */
+.try-this{
+    background-image: url(./image/calmc-bg.png);
+    text-align: center;
+    height: auto;
+    padding-bottom: 20px;
+}
+.try-this h1{
+    color: #139060;
+    font-size: 52px;
+    padding-top: 50px;
+}
+.try-this p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 38px;
+    color: #97aca5;
+}
+
+
+.c-activity{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around;
+}
+.ca-1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+.ca-1 p{
+    font-size: 28px;
+    color: #F5F0E8;
+}
+.ca-1 span{
+    font-size: 28px;
+    color: #27e5ac;
+}
+.bt-quotes{
+    margin-top: 50px;
+    padding-bottom: 20px;
+    height: auto;
+    text-align: center;
+}
+
+.bt-quotes button{
+    margin-top: 30px;
+    font-size: 20px;
+    height: 50px;
+    width: 300px;
+    border: solid 1px #417e6c;
+    transition: 0.5s linear;
+}
+.bt-quotes button:hover{
+    transform: scale(1.1);
+}
+.calm-quotes{
+    padding-bottom: 30px;
+    background:
+linear-gradient(
+    to bottom,
+    #17382F 0%,
+    #17382F 75%,
+    #102A24 100%
+);
+    height: auto;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+    text-align: center;
+}
+
+.calm-quotes h1{
+    margin-top: 20px;
+    color: #058b58;
+}
+.quo-tit {
+    color: #F5F0E8;
+    font-size: 28px;
+}
+.quo-list ul{
+    padding: 0px 10px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.quo-list ul li{
+    color: #D9A48F;
+    font-size: 28px;
+}
+.quo-list ul li:first-child{
+    list-style: none;
+}
+.calm-quotes button{
+    margin-top: 30px;
+    height: 40px;
+    width: 300px;
+    font-size: 24px;
+    background: #17382F;
+    color: #F5F0E8;
+    border: solid 1px #F5F0E8;
+    border-radius: 10px;
+}
+}
