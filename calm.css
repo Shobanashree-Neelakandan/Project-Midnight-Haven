@@ -278,9 +278,10 @@ linear-gradient(
     width: 90%;
 }
 .music-1 img{
+    margin-left: 0px;
     padding: 20px;
     height: 300px;
-    width: 90%;
+    width: 100%;
 }
 .music-1 audio{
     padding: 0px 20px;
